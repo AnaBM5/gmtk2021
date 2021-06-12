@@ -5,25 +5,36 @@ using UnityEngine.EventSystems;
 
 public class DragDrop : MonoBehaviour
 {
-    private RectTransform rectTransform;
-    private void Awake() 
+    private Vector2 initialPosition;
+    private Vector2 mousePosition;
+    private Vector2 newPosition;
+    
+    
+
+    private void Start()
     {
-        rectTransform = GetComponent<RectTransform>();
+        initialPosition = transform.position;
+        newPosition = initialPosition;
     }
-   public void OnMouseDown()
+
+    private void OnMouseDown()
    {
        Debug.Log("doing pointer");
    }
-   public void OnMouseEndDrag()
-   {
-       Debug.Log("doing enddrag");
-   }
-   public void OnMouseBeginDrag()
-   {
-       Debug.Log("doing begindrag");
-   }
-   public void OnMouseDrag()
-   {
 
+   private void OnMouseUp()
+   {
+       transform.position = new Vector2(newPosition.x,newPosition.y);
+   }
+   private void OnMouseDrag()
+   {
+        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.position = new Vector2(mousePosition.x, mousePosition.y);
+   }
+
+   private void OnTriggerEnter2D(Collider2D col)
+   {
+       Debug.Log(("collision"));
+       newPosition = col.transform.position;
    }
 }
