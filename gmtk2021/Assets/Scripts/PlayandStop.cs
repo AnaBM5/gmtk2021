@@ -21,8 +21,8 @@ public class PlayandStop : MonoBehaviour
     {
         if (PackageObj.active == true )
         {
-            Instantiate(PackageObj);
-            Destroy(PackageObj);
+            PackageObj.SetActive(false);
+            
         }
         else
         {

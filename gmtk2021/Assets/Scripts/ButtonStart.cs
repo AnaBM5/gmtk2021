@@ -18,4 +18,11 @@ public class ButtonStart : MonoBehaviour
     {
         
     }
+
+    void OnTriggerEnter2d(Collision2D col)
+    {
+        rb.velocity = new Vector2(0,speed);
+        Debug.Log("in");
+    }
+
 }
