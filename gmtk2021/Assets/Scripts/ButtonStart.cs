@@ -81,13 +81,14 @@ public class ButtonStart : MonoBehaviour
         if (package.CompareTag("right"))
         {
             roomAnimation.GivePackageTo("GiveRight");
-            yield return new WaitForSeconds(2.1f);
+            yield return new WaitForSeconds(2.11f);
             this.transform.position = new Vector2(other.transform.position.x+1.5f, transform.position.y);
             directionGet = "GetLeft";
         }
         if (package.CompareTag("endtag"))
         {
-            Debug.Log("yay u did it");
+            roomAnimation.Win();
+            yield return new WaitForSeconds(1.37f);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
