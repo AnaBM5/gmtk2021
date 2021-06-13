@@ -341,6 +341,7 @@ GameObject:
   - component: {fileID: 6668771328425005882}
   - component: {fileID: 6668771328425005881}
   - component: {fileID: 6668771328425005885}
+  - component: {fileID: 8045841178748841891}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -429,6 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fd31cda1b676b84abb11bbc1b572ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  current: {fileID: 0}
 --- !u!61 &6668771328425005881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -476,3 +478,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &8045841178748841891
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6668771328425005880}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d6d453f79f154346a9b37e7fe4fb1f0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
