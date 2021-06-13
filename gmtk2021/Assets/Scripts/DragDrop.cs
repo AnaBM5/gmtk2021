@@ -8,6 +8,7 @@ public class DragDrop : MonoBehaviour
     private Vector2 initialPosition;
     private Vector2 mousePosition;
     private Vector2 newPosition;
+    public GameObject current;
     
     
 
@@ -25,6 +26,7 @@ public class DragDrop : MonoBehaviour
    private void OnMouseUp()
    {
        Debug.Log("now");
+       current.GetComponent<variablebusyornot>().isbusy=true;
        transform.position = new Vector2(newPosition.x,newPosition.y);
    }
    private void OnMouseDrag()
@@ -35,8 +37,11 @@ public class DragDrop : MonoBehaviour
 
    private void OnTriggerEnter2D(Collider2D col)
    {
-      
-       Debug.Log(("collision"));
-       newPosition = col.transform.position;
+      if (!col.gameObject.GetComponent<variablebusyornot>().isbusy)
+      {
+          current = col.gameObject;
+          newPosition = col.transform.position;
+      }
+
    }
 }

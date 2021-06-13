@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayandStop : MonoBehaviour
 {
     public GameObject PackageObj;
+    public bool running;
+    public GameObject beginning;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +21,18 @@ public class PlayandStop : MonoBehaviour
 
     public void click()
     {
-        if (PackageObj.active == true )
+        if (running)
         {
+            running = false;
+            PackageObj.transform.position = beginning.transform.position;
             PackageObj.SetActive(false);
             
         }
         else
-        {
+        { 
             PackageObj.SetActive(true);
+           
+            running = true;
         }
     }
 }

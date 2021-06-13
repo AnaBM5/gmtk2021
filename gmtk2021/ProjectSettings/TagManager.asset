@@ -9,6 +9,7 @@ TagManager:
   - left
   - right
   - cuadricula
+  - endtag
   layers:
   - Default
   - TransparentFX
