@@ -19,10 +19,25 @@ public class ButtonStart : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2d(Collision2D col)
+    void OnCollisionEnter2d(Collision2D col)
     {
-        rb.velocity = new Vector2(0,speed);
-        Debug.Log("in");
+        if (col.gameObject.tag == "up")
+        {
+            rb.velocity = new Vector2(0,speed);
+        }
+        if (col.gameObject.tag == "down")
+        {
+            rb.velocity = new Vector2(0,-speed);
+        }
+        if (col.gameObject.tag == "left")
+        {
+            rb.velocity = new Vector2(-speed,0);
+        }
+        if (col.gameObject.tag == "right")
+        {
+            rb.velocity = new Vector2(speed,0);
+        }
+        
     }
 
 }
