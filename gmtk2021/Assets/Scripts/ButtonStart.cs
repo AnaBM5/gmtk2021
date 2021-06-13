@@ -19,8 +19,9 @@ public class ButtonStart : MonoBehaviour
         
     }
 
-    void OnCollisionEnter2d(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
+        Debug.Log("thig");
         if (col.gameObject.tag == "up")
         {
             rb.velocity = new Vector2(0,speed);
@@ -37,7 +38,6 @@ public class ButtonStart : MonoBehaviour
         {
             rb.velocity = new Vector2(speed,0);
         }
-        
     }
 
 }
