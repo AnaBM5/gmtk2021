@@ -342,6 +342,8 @@ GameObject:
   - component: {fileID: 6668771328425005881}
   - component: {fileID: 6668771328425005885}
   - component: {fileID: 8045841178748841891}
+  - component: {fileID: 1114665722254993325}
+  - component: {fileID: 8833957553587530013}
   m_Layer: 0
   m_Name: Room
   m_TagString: Untagged
@@ -497,3 +499,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1114665722254993325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6668771328425005880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26abda001c19d6a44a9f2349f527d3d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomAnim: {fileID: 8045841178748841891}
+--- !u!114 &8833957553587530013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6668771328425005880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b033df98186def842b637863745f7465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionGet: 
+  directionGive: 

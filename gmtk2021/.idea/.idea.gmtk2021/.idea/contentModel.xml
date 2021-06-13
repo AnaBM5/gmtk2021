@@ -12,8 +12,10 @@
           <e p="ButtonStart.cs" t="Include" />
           <e p="DragDrop.cs" t="Include" />
           <e p="GridScript.cs" t="Include" />
+          <e p="PackageScript.cs" t="Include" />
           <e p="PlayandStop.cs" t="Include" />
           <e p="SendUpScrpt.cs" t="Include" />
+          <e p="variablebusyornot.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
@@ -46,7 +48,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="variablebusyornot.cs" t="Include" />
       </e>
       <e p="gmtk2021.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

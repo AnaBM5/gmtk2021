@@ -14,6 +14,11 @@ public class AnimationScript : MonoBehaviour
     public void GetPackageFrom(string direction){
         roomAnim.SetTrigger(direction);
     }
+
+    public void Win()
+    {
+        roomAnim.SetTrigger("Win");
+    }
     
     // Start is called before the first frame update
     void Start()
