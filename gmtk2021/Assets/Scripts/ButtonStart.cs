@@ -37,6 +37,8 @@ public class ButtonStart : MonoBehaviour
         roomAnimation.GetPackageFrom(directionGet);
         this.GetComponent<SpriteRenderer>().enabled = false;
 
+        rb.velocity = new Vector2(0,0);
+        
         if (directionGet.Equals("GetUp"))
         {
            yield return new WaitForSeconds(1.5f);
@@ -54,7 +56,7 @@ public class ButtonStart : MonoBehaviour
             yield return new WaitForSeconds(1.4f);
         }
         
-        rb.velocity = new Vector2(0,0);
+        
         //yield return new WaitForSeconds(2f);
         Debug.Log("I waiteded");
         if (package.CompareTag("up") )
