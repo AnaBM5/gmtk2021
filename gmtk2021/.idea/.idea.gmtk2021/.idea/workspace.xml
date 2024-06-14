@@ -2,126 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70206c6c-26f5-4496-9a79-9480b7e53513" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Room 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Room 1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ButtonStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ButtonStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.gmtk2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gmtk2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GiveLeft.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GiveLeft.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/GiveRight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/GiveRight.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DragDrop.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="44" />
-              <folding>
-                <marker date="1623604657188" expanded="false" signature="6:110" ph="..." />
-                <marker date="1623604657188" expanded="true" signature="149:1117" ph="{...}" />
-                <marker date="1623604657188" expanded="true" signature="323:420" ph="{...}" />
-                <marker date="1623604657188" expanded="true" signature="452:497" ph="{...}" />
-                <marker date="1623604657188" expanded="true" signature="526:693" ph="{...}" />
-                <marker date="1623604657188" expanded="true" signature="723:886" ph="{...}" />
-                <marker date="1623604657188" expanded="true" signature="936:1115" ph="{...}" />
-                <marker date="1623604657188" expanded="true" signature="1009:1109" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnimationScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <marker date="1623603327959" expanded="false" signature="6:78" ph="..." />
-                <marker date="1623603327959" expanded="true" signature="124:610" ph="{...}" />
-                <marker date="1623603327959" expanded="true" signature="214:261" ph="{...}" />
-                <marker date="1623603327959" expanded="true" signature="315:362" ph="{...}" />
-                <marker date="1623603327959" expanded="true" signature="385:433" ph="{...}" />
-                <marker date="1623603327959" expanded="true" signature="508:529" ph="{...}" />
-                <marker date="1623603327959" expanded="true" signature="587:608" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonStart.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="77" column="66" selection-start-line="77" selection-start-column="66" selection-end-line="77" selection-end-column="66" />
-              <folding>
-                <marker date="1623618190125" expanded="false" signature="6:143" ph="..." />
-                <marker date="1623618190125" expanded="true" signature="185:3279" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="414:516" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="536:638" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="696:717" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="774:3088" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="1048:1130" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="1170:1255" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="1295:1379" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="1420:1491" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="1659:1927" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="1967:2234" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="2274:2544" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="2585:2855" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="2897:3082" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="3141:3276" ph="{...}" />
-                <marker date="1623618190125" expanded="true" signature="3195:3261" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayandStop.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-              <folding>
-                <marker date="1623615346354" expanded="false" signature="6:78" ph="..." />
-                <marker date="1623615346354" expanded="true" signature="177:1200" ph="{...}" />
-                <marker date="1623615346354" expanded="true" signature="492:513" ph="{...}" />
-                <marker date="1623615346354" expanded="true" signature="571:592" ph="{...}" />
-                <marker date="1623615346354" expanded="true" signature="617:1085" ph="{...}" />
-                <marker date="1623615346354" expanded="true" signature="644:885" ph="{...}" />
-                <marker date="1623615346354" expanded="true" signature="898:1079" ph="{...}" />
-                <marker date="1623615346354" expanded="true" signature="1126:1198" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PackageScript.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-              <folding>
-                <marker date="1623604663835" expanded="false" signature="6:78" ph="..." />
-                <marker date="1623604663835" expanded="true" signature="122:361" ph="{...}" />
-                <marker date="1623604663835" expanded="true" signature="259:280" ph="{...}" />
-                <marker date="1623604663835" expanded="true" signature="338:359" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragDrop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PackageScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayandStop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/variablebusyornot.cs" root0="FORCE_HIGHLIGHTING" />
@@ -137,12 +38,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="478" />
     <option name="y" value="228" />
     <option name="width" value="805" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectId" id="2hsKHIbfI5ThR3vnR05wjVFTkxQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
@@ -160,25 +65,18 @@
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
-    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "rider.run.widget.enabled.cache": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe" />
@@ -209,6 +107,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -221,6 +120,7 @@
       <updated>1623527513846</updated>
       <workItem from="1623527586699" duration="3094000" />
       <workItem from="1623600865520" duration="8810000" />
+      <workItem from="1718377272416" duration="690000" />
     </task>
     <servers />
   </component>
@@ -270,10 +170,14 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
